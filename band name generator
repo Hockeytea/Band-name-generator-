@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+#Band Name Generator  
+#Created by Hockeytea 
+#date:      01/10/2021
+#Licence:   For education only 
+#######
+
+
+# 1. Create a greating for your program.
+print("hello welcome to the project name your band\n")
+# 2.  user for the name of the city they like the most or where they grew up in 
+city = input("what is your favriote city or the city you grew up in?")
+# 3. Ask the user for a name of a pet.
+pet_name = input("what is the name of your pet or a name you would give a pet?\n")
+# 4. combine the name of the city and the name of the pet and show them their band name.
+print("your band name could be" + city + " " + pet_name)
